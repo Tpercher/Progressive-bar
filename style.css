@@ -1,0 +1,120 @@
+section{
+	padding:5%;
+	min-height:300px;
+}
+section:nth-child(odd){/*impair*/
+	background:#000;
+}
+section:nth-child(even){/*pair*/
+	background:#00A0E0; /* Couleur fond Compétences & contact */
+}
+p{
+	flex: 1;
+	text-align: justify;
+	color: white;
+}
+.info{
+	display: flex;
+	width: 100%;
+	justify-content: space-around;
+	align-items: center;
+}
+
+.conteneur{
+	display: flex;
+	align-items: center;
+}
+
+.info span{
+	color: orangered;
+}
+
+
+												                        /*			     COMPÉTENCES			     	*/
+
+#competences article{
+	text-align: center;
+}
+
+#competences article h5{
+	color:white;
+	font-size: .8em;
+	font-weight: 100; 
+	border: 1px solid #fff;
+	padding: 0 1% 0 1%;
+	margin: 1%;
+	display: inline-block;
+}
+#competences article .conteneur_progress_bar{
+    width: 50%; /* Taille des barres */
+    height: 25px;
+    border: 1px solid;
+    box-shadow: 0 1px 1px #000;
+    border-radius: 4px;
+
+    margin: auto;
+}
+
+#competences article .conteneur_progress_bar .commun_progress_style{
+    position:relative;
+    height:25px;
+    border-radius: 4px;
+}
+
+.pourcentage{
+    color: white;
+    font-size: initial;
+    vertical-align: text-top;
+}
+
+/* Animation des barres de progression */
+
+.bar_html{
+    background: crimson;
+    animation: html 7s forwards 1; /* 1 au lien de infinite */
+}
+@keyframes html{ /*temps*/
+    0%{width:0;} /*début*/
+    40%{width:85%;}
+    100%{width:85%;} /*fin*/
+}
+
+.bar_ps{
+    background: gold;
+    animation: ps 7s forwards 1;/* 1 au lien de infinite */
+}
+@keyframes ps{ /*temps*/
+    0%{width:0;}/*début*/
+    40%{width:65%;}
+    100%{width:65%;}/*fin*/
+}
+
+.bar_pp{
+    background: green;
+    animation: pp 7s forwards 1;/* 1 au lien de infinite */
+}
+@keyframes pp{ /*temps*/
+    0%{width:0;}/*début*/
+    40%{width:70%;}
+    100%{width:70%;}/*fin*/
+}
+
+.bar_bootstrap{
+    background: orangered;
+    animation: framework 7s forwards 1;/* 1 au lien de infinite */
+}
+@keyframes framework {/*temps*/
+    0%{width:0;}/*début*/
+    40%{width:80%;}
+    100%{width:80%;}/*fin*/
+}
+
+.bar_cms{
+    background: dodgerblue;
+    animation: cms 7s forwards 1;/* 1 au lien de infinite */
+}
+@keyframes cms { /*temps*/
+    0%{width:0;} /*début*/
+    40%{width:80%;}
+    100%{width:80%;}/*fin*/
+}
