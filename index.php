@@ -38,3 +38,12 @@
 						</div>
 					</article>
 		</section>
+<footer>
+	<a href="index.php" title="mon site">Theo Percheron</a>
+	<span> | &copy; 2017 | </span>
+	<a href="#" title="mentions légales"> Tout droit réservé </a>
+</footer>
+</body>
+	<script src="script.js"></script><!-- Si je le place en haut cela fait bugger les modal -->
+</html>
+
