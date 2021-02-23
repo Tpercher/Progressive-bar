@@ -1,4 +1,15 @@
-<section id="competences" >
+<!DOCTYPE html>
+<html lang="fr">
+	<head>
+		<title> Progressive bar HTML & CSS </title>
+		<meta name="description" content="description à inscrire ici" />
+		<meta charset="utf-8">
+		<link rel="stylesheet" href="style.css">
+		<link href="https://use.fontawesome.com/releases/v5.0.6/css/all.css" rel="stylesheet">
+		<link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Open+Sans:400,300" />
+	</head>
+	<body>
+		<section id="competences" >
 			<h3> Points forts </h3>
 					<article>
 						<h5>HTML5 & CSS3</h5>
